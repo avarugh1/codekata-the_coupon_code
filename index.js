@@ -5,7 +5,7 @@ function monthToInt(curMonth, expMonth){
 }
 
 function dateComparator(curSplit, expSplit){
-    // Step 2: compare dates
+    // Step 2: compare dates without Date library
 
     if(curSplit[2] < expSplit[2]){
         return true;
